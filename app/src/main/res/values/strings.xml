@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">firebaselogin</string>
+    <string name="sms_sent_title">Enter the code that was sent to</string>
+    <string name="sms_continue">Continue</string>
+    <string name="sms_resend">Send sms again</string>
+</resources>

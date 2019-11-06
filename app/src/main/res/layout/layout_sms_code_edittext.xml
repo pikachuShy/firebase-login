@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:minWidth="60dp"
+    android:maxWidth="70dp"
+    android:layout_weight="1"
+    android:maxLength="1"
+    android:inputType="number"
+    android:padding="4dp"
+    android:gravity="center"
+    android:textAlignment="center"
+    android:imeOptions="actionNext"
+    android:singleLine="true"
+    android:background="@drawable/bg_phone_transparent" />
+
