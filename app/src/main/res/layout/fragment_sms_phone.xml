@@ -24,13 +24,13 @@
         
         <TextView
             android:id="@+id/phoneNumberFlag"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_margin="8dp"
             android:layout_gravity="center"
             android:foreground="?attr/selectableItemBackground"
             android:gravity="center"
-            android:textSize="20sp"
+            android:textSize="16sp"
             android:textAlignment="center"
             android:clickable="true"
             android:focusable="true" />

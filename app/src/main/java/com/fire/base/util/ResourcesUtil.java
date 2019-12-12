@@ -47,7 +47,6 @@ public class ResourcesUtil {
         if (Build.VERSION.SDK_INT >= 23) {
             return sRes.getColor(id, sContext.getTheme());
         }
-
-        return sRes.getColor(id);
+        return ContextCompat.getColor(sContext, id);
     }
 }

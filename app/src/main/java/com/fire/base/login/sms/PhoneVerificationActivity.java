@@ -160,6 +160,8 @@ public class PhoneVerificationActivity extends AppCompatActivity implements SmsP
         params.setMargins(margin,margin,margin,margin);
         progress.setLayoutParams(params);
         contentLay.addView(progress,0);
+        int loadingPadding = Utils.dpToPx(4);
+        contentLay.setPadding(loadingPadding,loadingPadding,loadingPadding,loadingPadding);
         mSnackbar.show();
     }
 
